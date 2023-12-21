@@ -1,5 +1,5 @@
 import { v4 as uuid } from 'uuid';
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import validate from '../validation/validation.js';
 import { registerUserValidation, loginUserValidation, getUserValidatin } from '../validation/user-validation.js';
 import { prismaClient } from '../application/database.js';
